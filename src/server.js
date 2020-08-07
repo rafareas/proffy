@@ -15,7 +15,7 @@ const proffys = [
     avatar:"https://scontent.fcfb2-1.fna.fbcdn.net/v/t31.0-8/20229450_1444277112329874_8421907480401079454_o.jpg?_nc_cat=107&_nc_sid=09cbfe&_nc_ohc=lZRWSX8RqPkAX9bYAyX&_nc_ht=scontent.fcfb2-1.fna&oh=f13f099bd201634ad9466be871053e3c&oe=5F522E29",
     whatsapp:"89987654634",
     bio:"Física não é somente uma matéria, ela é um complemento da sua vida. Professor totalmente engajado em fazer o aluno ficar mais confuso do que quando entrou na aula, e também impressionado com a genialidade da vida e do universo universo.",
-    subject:"Química", 
+    subject:"Física", 
     cost:"300,00", 
     weekday:[4], 
     time_from:[720], 
