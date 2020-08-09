@@ -15,7 +15,7 @@ function cloneField(){
         field.value = ""
     })
     //colocar na pagina: onde??
-    document.querySelector('#schedule-items').appendChild(newFieldContaine)
+    document.querySelector('#schedule-items').appendChild(newFieldContainer)
 }
     
 
