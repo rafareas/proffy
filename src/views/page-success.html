@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#8257E5">
+    
+    <title>Proffy | Cadastro Salvo</title>
+
+    <link rel="shortcut icon" href="/public/images/favicon.png"
+    type="image/png">
+    <link rel="stylesheet" href="/public/styles/main.css">
+    <link rel="stylesheet" href="/public/styles/partials/success.css"> 
+
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+
+</head>
+<body id ="page-success" background="/public/images/success-background.svg">
+    <div id="container">
+        <div class="check-container">
+            <img src="/public/images/icons/success-check-icon.svg" alt="sucesso">
+        </div>
+        <div class="message-success">
+            <h2>Cadastro Salvo</h2>
+            <p>Tudo certo, seu cadastro está na nossa lista de proffys.</p>
+        </div>
+        <div class="buttons-container">
+            <a id="study" class="study" href="/study?subject={{filters.subject}}&weekday={{filters.weekday}}&time={{filters.time}}">
+                <img src="/public/images/icons/study.svg" alt="estudar">Acessar a lista
+            </a>
+        </div>
+    </div>
+    <script src="/public/scripts/redirectToStudy.js"></script>
+</body>
+</html>
